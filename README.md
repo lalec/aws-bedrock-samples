@@ -52,7 +52,7 @@ While `eu-west-1` is our preferred region, model access can vary between AWS reg
 
 To use a different region, simply change the `region_name` parameter in the client configuration for each code example.
 
-# Note on Cloud Models
+### Note on Cloud Models
 
 For cloud models, you'll also need to adjust the `modelId` when changing regions. This is because these models utilize cross-region inference.
 
